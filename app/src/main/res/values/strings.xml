@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstAppDev</string>
+    <string name="welcome">Bienvenue!</string>
+    <string name="login_to_go">Se connnecter pour continuer</string>
+</resources>
