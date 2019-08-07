@@ -1,4 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="text_margin">8dp</dimen>
+    <dimen name="layout_margin">32dp</dimen>
+    <dimen name="img_profile_size">78dp</dimen>
+    <dimen name="margin_edit_text">64dp</dimen>
 </resources>

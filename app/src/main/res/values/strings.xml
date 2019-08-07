@@ -2,4 +2,8 @@
     <string name="app_name">FirstAppDev</string>
     <string name="welcome">Bienvenue!</string>
     <string name="login_to_go">Se connnecter pour continuer</string>
+    <string name="username">Username</string>
+    <string name="password">password</string>
+    <string name="login">Se connecter</string>
+    <string name="password_forgot">Mot de passe oublie</string>
 </resources>
