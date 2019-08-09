@@ -6,4 +6,7 @@
     <string name="password">password</string>
     <string name="login">Se connecter</string>
     <string name="password_forgot">Mot de passe oublie</string>
+    <string name="error_msg">Message d\'erreur</string>
+    <string name="login_error">Username or password incorrect</string>
+    <string name="title_activity_home">HomeActivity</string>
 </resources>

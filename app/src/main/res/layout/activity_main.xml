@@ -45,6 +45,13 @@
                 android:textColor="@color/colorPrimary"
                 android:layout_margin="@dimen/text_margin"/>
 
+            <TextView
+                android:id="@+id/error_view"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/error_msg"
+                android:textColor="@color/red"/>
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -55,6 +62,7 @@
                 android:layout_marginBottom="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_margin">
                 <EditText
+                    android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"
@@ -77,6 +85,7 @@
                 android:layout_marginBottom="@dimen/text_margin"
                 android:layout_marginTop="@dimen/text_margin">
                 <EditText
+                    android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@color/transparent"
@@ -93,6 +102,7 @@
 
 
             <Button
+                android:id="@+id/login_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/login"
@@ -106,6 +116,7 @@
                 android:textAllCaps="false"/>
 
             <Button
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:padding="@dimen/text_margin"
@@ -113,7 +124,10 @@
                 android:textColor="@color/red"
                 android:textAllCaps="false"
                 android:shadowColor="@color/transparent"
-                android:background="@color/transparent"/>
+                android:background="@color/transparent"
+                android:onClick="btnOnClick"
+                android:clickable="true"
+                android:focusable="true" />
         </LinearLayout>
 
     </android.support.constraint.ConstraintLayout>
