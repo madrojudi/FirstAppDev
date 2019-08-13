@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">FirstAppDev</string>
+    <string name="app_name">First AppDev</string>
     <string name="welcome">Bienvenue!</string>
     <string name="login_to_go">Se connnecter pour continuer</string>
     <string name="username">Username</string>
@@ -9,4 +9,9 @@
     <string name="error_msg">Message d\'erreur</string>
     <string name="login_error">Username or password incorrect</string>
     <string name="title_activity_home">HomeActivity</string>
+    <string name="profile">Profile</string>
+    <string name="inscrire_ton_profil_dans_appdev_company">Inscrire ton profil dans AppDev Company</string>
+    <string name="last_name">Nom</string>
+    <string name="first_name">Prénoms</string>
+    <string name="email">Email</string>
 </resources>
